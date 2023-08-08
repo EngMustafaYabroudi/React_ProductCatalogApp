@@ -3,13 +3,7 @@ import axios from "axios";
 import { Card} from "@material-ui/core";
 import {useParams} from "react-router-dom";
 import '@emotion/react';
-// interface Product {
-//   id: number;
-//   name: string;
-//   price: number;
-//   image: string;
-//   description: string;
-// }
+
 
 const ProductDetailPage = () => {
   const {id} = useParams();
